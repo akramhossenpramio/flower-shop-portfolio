@@ -1,0 +1,81 @@
+/* common shared styles*/
+
+.body{
+    font-family: font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FFFFFF;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.entry{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+font-family:open sans-serif;
+font-size: 80px;
+font-weight: 800px;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+}
+
+/* header related styles */
+.header{
+    background:#E554731A ;
+}
+.banner{
+    margin: 32px;
+    padding: 30px 30px 30px 150px;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+}
+.banner .profile-pic{
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+display: flex;
+}
+.profile-pic{
+    display: inline;
+}
+.section-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.about{
+    padding: 130px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* pink flower tree styles */
+.Pink-Flower-one{
+    display: flex;
+}
+.tree-title{
+    padding: 30px 150px;
+}
