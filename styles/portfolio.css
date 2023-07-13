@@ -1,59 +1,14 @@
 /* common shared styles*/
 
-.body{
-    font-family:'Open Sans', sans-serif;
+body{
+    font-family: 'Lato', sans-serif;
 }
-.text-primary{
-    color: #FFFFFF;
-}
+   
 
-/* nav related styles */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
-}
 .section-description{
     display: flex;
 width: 594px;
 flex-direction: column;
-}
-.profile-pic{
-    width: 635px;
-height: 800px; 
-}
-.entry{
-    width: 708px;
-    color: #272727;
-font-family:open sans-serif;
-font-size: 80px;
-font-weight: 800;
-line-height: normal;
-}
-.player{
-    display: flex;
-    justify-content : center;
-    align-items: center;
-    width: 70%;
-    margin: 0 auto;
-    gap: 20px;
-
-}
-.new{
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    width: 70px;
-    margin: 20px auto;
-}
-.man{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin: 20px auto;
-    padding: 24px;
-    gap: 20px;
 }
 
 .btn-primary{
@@ -67,36 +22,21 @@ line-height: normal;
     text-align: center;
 }
 
-/* header related styles */
-.header{
-    background:#E554731A ;
-    width: 1920px;
-height: 850px;
-}
-.banner{
-    color: rgba(39, 39, 39, 0.60);
-    margin: 32px;
-    padding: 30px 30px 30px 150px;
-    font-size: 18px;;
-    font-weight: 400;
-    line-height: 30px;
-    display: flex;
-}
-.banner .profile-pic{
-    width: 635px;
-height: 800px;
-display: flex;
-}
-.profile-pic{
-    display: inline;
-}
-.section-title{
+.entry{
+    width: 708px;
     color: #272727;
-text-align: center;
-font-size: 40px;
+font-family:font-family: 'Lato', sans-serif;
+font-size: 80px;
 font-weight: 800;
-
+line-height: normal;
 }
+
+.profile{
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+}
+
 .about{
     padding: 130px;
     color: #27272799;
@@ -105,6 +45,33 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
+
+.section-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+height: 50px;
+}
+
+.section-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: -200px;
+}
+
+.player{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
 /* pink flower tree styles */
 .Pink-Flower-one{
     background-color:#A7216226 ;
@@ -112,9 +79,6 @@ line-height: 30px;
     width: 300px;
     height: 400px;
     padding: 30px;
-}
-.img-one{ 
-    width: 100%;
 }
 
 .Pink-Flower-two{
@@ -124,6 +88,7 @@ line-height: 30px;
     height: 400px;
     padding: 30px;
 }
+
 .Pink-Flower-three{
     background-color: #477d1126;
     border-radius: 300px 300px 0px 0px;
@@ -131,25 +96,83 @@ line-height: 30px;
     height: 400px;
     padding: 30px;
 }
-    
+.img-one{
+    width: 250px;
+    height: 350px;
+    padding: 78px 5px;
+    margin-bottom: -80px;
+}
+.img-two{ 
+    width: 270px;
+    height: 300px;
+    padding: 65px 5px;
+    margin-bottom: -5px;
+}
+.img-three{
+    width: 314px;
+    height: 427px;
+}
 
-.tree-title{
-    margin-top: 70px;
+#tree-title{
+    color:#272727 ;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
-.section-des{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+
+.offer{
+    display: flex;
+    gap: 120px;
+    background-color:#2727270D;
+    width: 1440px;
+    height: 320px;
+    margin: auto;
+}
+.text{
+    margin: auto;
     text-align: center;
 }
-.home{
-    padding-top: 120px;
+.text h3{
+
+   text-align: center;
 }
-.home p{
-    color: #27272799;
-    text-align: center;
+
+.text .img-one{
+    width: 88px;
+    height: 88px;
 }
+.text .center{
+  text-align: center;
+  padding-bottom: 180px;
+  margin-bottom: -100px;
+}
+
+.text-img{
+    margin-left: 20px;
+}
+
+.rose{
+    background-color: #E554730D;
+    width: 1440px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+
+.design{
+    padding: 100px;
+}
+
+.design-new{
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+height: 50px;
+}
+.design-new span{
+    color: #E55473;
+}
+
 .new-button{
     height: 40px;
     width: 120px;
@@ -161,17 +184,48 @@ line-height: 30px;
     cursor: pointer;
 }
 
-.rose{
-    background-color: #E554730D;
-    width: 1440px;
+.man{
     display: flex;
-    margin: auto;
-    margin-top: 60px;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items:center;
+    margin: 20px auto;
+    padding: 24px;
+    gap: 20px;
 }
+
+.new{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 70px;
+    margin: 20px auto;
+}
+
+/* header related styles */
+.header{
+    background:#E554731A ;
+    width: 1920px;
+height: 850px;
+}
+.banner{
+    color: rgba(39, 39, 39, 0.60);
+    margin: 0px;
+    padding: 30px 30px 30px 150px;
+    font-size: 18px;;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 635px;
+height: 800px;
+display: flex;
+}
+
 #last-section-area{
-    background-color: aliceblue;
+    background-image: url(../images/bg.png);
     width: 1450px;
+    height: 449px;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,7 +237,8 @@ line-height: 30px;
 }
 
 #last-area-title{
-    width: 100%;
+    width: 300%;
+    height: 200px;
     text-align: center;
 }
 
@@ -218,7 +273,7 @@ line-height: 30px;
 
 .last-text{
     font-size: 12px;
-    color: rgba(128, 128, 128, 0.456) !important;
+    color: rgba(128, 128, 128, 0.456);
 }
 
 #last-whole-area{
@@ -226,7 +281,8 @@ line-height: 30px;
 }
 
 #end-section-area{
-    width: 1450px;
+    width: 1922px;
+    height: 250px;
     margin: auto;
     padding: 70px 0px;
     background-color: #272727;
@@ -236,7 +292,8 @@ line-height: 30px;
 #end-section-area h3{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 48px;
+    
 }
 
 #end-section-area span{
@@ -251,46 +308,12 @@ line-height: 30px;
 
 .end-text{
     font-size: 12px;
-    color: rgba(128, 128, 128, 0.456) !important;
+    color: #FFFFFF66;
 }
 
-.new-form>button{
-    margin-left: 600px;
 
-}
-.hot-deal{
-    color: #E55473;
-font-size: 48px;
-font-weight: 800;
-}
-.new title{
-    display: block;
-    border-radius: 300px 300px 0px 0px;
-    width: 314px;
-    height: 471px;
-}
-.offer{
-    display: flex;
-    gap: 120px;
-    background-color:#2727270D;
-    width: 1440px;
-height: 320px;
-margin: auto;
-}
-.name{
-    color: #ffffff66;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-}
 
-.text{
-    margin: auto;
-}
-.text h3{
-    margin-left: 20px;
-    
-}
-.text-img{
-    margin-left: 15px;
-}
+
+
+
+
